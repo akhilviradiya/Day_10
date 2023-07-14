@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hide image</title>
+</head>
+<body>
+    <h2 style="text-align: center;">click and see magic</h2> 
+
+    <img src="./Screenshot 2023-06-28 105015.png" id="hide" style="width: 400px; margin-top: 20px;" alt="#">
+    <img src="./Screenshot 2023-06-28 105034.png" id="show" style="width: 400px; display: none; position: absolute; top: 90px; left: 550px;" alt="#">
+
+    <button style="position: absolute; left: 80px; top: 60px;" onclick="document.getElementById('hide').style.display='none'">click for hide this image</button>
+
+    <button style="position: absolute; left: 600px; top: 60px;" onclick="document.getElementById('show').style.display='block'">click for new image</button>
+
+    <button style="position: absolute; top: 400px; left: 500px;" onClick="window.location.reload();">Refresh Page</button>
+
+</body>
+</html>
